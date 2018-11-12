@@ -1,0 +1,17 @@
+{% extends "main.html" %}
+{% block content %}
+{% include "header.html" %}
+  <div class="row divider orange">
+    <div class="col-md-12"></div>
+  </div>
+  <div class="row banner main">
+    <div class="col-md-1"></div>
+    <div class="col-md-10 padding-none">
+      <h1>{{ company.companyName }}: {{ project.projectName }}</h1>
+    </div>
+  </div>
+
+
+
+{% include "footer.html" %}
+{% endblock %}
